@@ -12,8 +12,8 @@ export class ServicePage implements OnInit {
 
   user_id: Number;
   business_id: Number;
-  services: [];
-  messages: [];
+  services: any;
+  messages: any;
   service: string;
   message: string;
   businessName: string;

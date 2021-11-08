@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { HttpinterceptorService } from './services/httpinterceptor.service';
+import { NgForm } from '@angular/forms';
 
 @NgModule({
   declarations: [AppComponent],

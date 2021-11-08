@@ -18,28 +18,28 @@
         <div class="grid">
           <ion-item>
             <ion-label position="floating">First Name</ion-label>
-            <ion-input type="text" name="first_name" [(ngModel)]="form.first_name"></ion-input>
+            <ion-input type="text" name="first_name" ngModel></ion-input>
           </ion-item>
 
           <ion-item>
             <ion-label type="text" position="floating">Last Name</ion-label>
-            <ion-input name="last_name" [(ngModel)]="form.last_name"></ion-input>
+            <ion-input name="last_name" ngModel></ion-input>
           </ion-item>
 
           <ion-item>
             <ion-label position="stacked">Last Visit Date</ion-label>
-            <ion-input type="Date" name="last_visit" [(ngModel)]="form.last_visit"></ion-input>
+            <ion-input type="Date" name="last_visit" ngModel></ion-input>
           </ion-item>
 
           <ion-item>
             <ion-label position="stacked">Anniversary</ion-label>
-            <ion-input type="Date" name="anniversary" [(ngModel)]="form.anniversary"></ion-input>
+            <ion-input type="Date" name="anniversary" ngModel></ion-input>
           </ion-item>
 
           <ion-item>
             <ion-label position="floating">Service
             </ion-label>
-            <ion-select type="text" name="service" [(ngModel)]="form.service">
+            <ion-select type="text" name="service" ngModel>
               <ion-select-option value="facial" color="black">Facial</ion-select-option>
               <ion-select-option value="oil massage">Oil Massage</ion-select-option>
               <ion-select-option value="head massage">Head Massage</ion-select-option>
@@ -48,7 +48,7 @@
 
           <ion-item>
             <ion-label position="floating">Payment Status</ion-label>
-            <ion-input type="text" name="payment" [(ngModel)]="form.payment"></ion-input>
+            <ion-input type="text" name="payment" ngModel></ion-input>
           </ion-item>
 
           <ion-item>
@@ -74,7 +74,7 @@
         
           <ion-item>
             <ion-label position="floating">Message</ion-label>
-            <ion-textarea name="message" [(ngModel)]="form.message"></ion-textarea>
+            <ion-textarea name="message" ngModel></ion-textarea>
           </ion-item>
 
         <ion-button slot="end" type="submit">Submit</ion-button>

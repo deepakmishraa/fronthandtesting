@@ -3,6 +3,7 @@ import { UserService } from 'src/app/services/user.service';
 import { TokenStorageService } from '../../../services/tokenstorage.service'
 import { AlertService } from '../../../services/alert.service'
 import { Router } from '@angular/router';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-add-customer',
@@ -11,8 +12,9 @@ import { Router } from '@angular/router';
 })
 export class AddCustomerPage implements OnInit {
   user_id
-  first_name: string;
-  last_name: string;
+  form: any[];
+  first_name: any;
+  last_name: any;
   image_url: any;
   image_name: string;
   last_visit: Date;

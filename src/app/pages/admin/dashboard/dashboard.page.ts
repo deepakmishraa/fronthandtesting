@@ -22,9 +22,9 @@ export class DashboardPage implements OnInit {
   business_id3: Number;
   template_url: any;
   template_name: string;
-  business_category: [];
+  business_category: any;
   referals;
-
+  
   constructor(
     private tokenStorage: TokenStorageService,
     private adminService: AdminService,

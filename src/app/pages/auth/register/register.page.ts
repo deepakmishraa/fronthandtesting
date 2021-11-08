@@ -17,7 +17,7 @@ export class RegisterPage implements OnInit {
   email: string = 'anshulsharma@gmail.com'
   password: string = 'anshul123'
   business_id: Number;
-  category: [];
+  category: any;
   loading = false;
   submitted = false
   showPassword = false

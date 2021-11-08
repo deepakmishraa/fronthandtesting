@@ -14,8 +14,8 @@ export class CustomerPage implements OnInit {
 
   name: string;
   id: number;
-  customers:[];
-  customersData:[];
+  customers:any;
+  customersData:any;
 
   constructor(private tokenStorage: TokenStorageService, 
               private userService: UserService,
